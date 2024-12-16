@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-language" content="es" />
+
+    <link rel="icon" href="/img/logo/isotipo.png" sizes="32x32">
+
+    <title>CloseUpLearn</title>
+    <meta name="description"
+        content="CloseUpLearn is a versatile online learning platform designed to provide high-quality educational content for learners of all levels. With a wide range of categories and courses, we aim to make learning accessible, focused, and impactful for anyone who seeks to deepen their knowledge or acquire new skills. Whether you're looking to advance professionally, explore new hobbies, or dive into a completely new field, CloseUpLearn has something for everyone." />
+    <meta name="keywords"
+        content="final year courses, focused learning, detailed learning, university success, academic support, advanced education, final exams preparation, student resources, higher education platform, graduation readiness" />
+    <meta name="author" content="closeuplearn.com" />
+
+
+    <meta property="og:title" content="CloseUpLearn" />
+    <meta property="og:description"
+        content="CloseUpLearn is a versatile online learning platform designed to provide high-quality educational content for learners of all levels. With a wide range of categories and courses, we aim to make learning accessible, focused, and impactful for anyone who seeks to deepen their knowledge or acquire new skills. Whether you're looking to advance professionally, explore new hobbies, or dive into a completely new field, CloseUpLearn has something for everyone." />
+    <meta property="og:image" content="/img/logo/logo-vertical.png" />
+    <meta property="og:url" content="closeuplearn.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="closeuplearn.com" />
+
+
+    <meta name="twitter:card" content="/img/logo/logo-vertical.png" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="CloseUpLearn" />
+    <meta name="twitter:description"
+        content="CloseUpLearn is a versatile online learning platform designed to provide high-quality educational content for learners of all levels. With a wide range of categories and courses, we aim to make learning accessible, focused, and impactful for anyone who seeks to deepen their knowledge or acquire new skills. Whether you're looking to advance professionally, explore new hobbies, or dive into a completely new field, CloseUpLearn has something for everyone." />
+    <meta name="twitter:image" content="/img/logo/logo-vertical.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/splide/splide.min.css">
+
+
+    <!-- CDN Bootstrap -->
+    <link href="/css/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/Bootstrap/css/custom.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- menu -->
+    <header class="header-menu">
+        <nav>
+            <!-- Btn menu movil -->
+            <div class="container-menu-movil d-block-movil d-none-desktop">
+                <button><i class='bx bx-menu-alt-left'></i></button>
+            </div>
+            <div class="logo-header">
+                <a href="/">
+                    <img src="/img/logo/logo-horizontal.png" alt="Logo CloseUpLearn" width="250">
+                </a>
+            </div>
+            <div class="container-menu">
+                <div class="container-comunidad-hover d-none-movil d-block-desktop">
+                    <button class="d-flex justify-center align-center" data-drop-target="sectionCategory">
+                        <span>Categorías</span>
+                        <i class='bx bx-chevron-down rotate'></i>
+                    </button>
+                    <div class="content-comunidad-hover drop-xl drop-category" id="sectionCategory">
+                        <div class="container-drop-cat">
+                            <div class="list-drop-cat d-flex flex-column">
+                                <div class="drop-hover-cat">
+                                    <a href="/desarrollo.html"
+                                        class="item-drop-cat item-drop-cat-main d-flex justify-between align-center">
+                                        <span>Desarrollo</span>
+                                        <i class='bx bx-chevron-right fz-20'></i>
+                                    </a>
+                                    <div class="content-drop-cat-hover drop-xl">
+                                        <div class="d-flex flex-column gap-5">
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Desarrollo web</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Ciencias de la comuncación</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Desarrollo móvil</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Lenguajes de programación</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Desarrollo de videojuegos</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Diseño y desarrollo de dase de datos</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Testeo de software</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Inginiería de software</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Herremientas de desarrollo de software</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Desarrollo sin código</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="drop-hover-cat">
+                                    <a href="negocios.html"
+                                        class="item-drop-cat  item-drop-cat-main d-flex justify-between align-center">
+                                        <span>Negocios</span>
+                                        <i class='bx bx-chevron-right fz-20'></i>
+                                    </a>
+                                    <div class="content-drop-cat-hover drop-xl">
+                                        <div class="d-flex flex-column gap-5">
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Negocios 1</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Negocios 2</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Negocios 3</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Negocios 4</span>
+                                            </a>
+                                            <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                                <span>Negocios 5</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Finanzas y contabilidad</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Informática y software</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Productividad en la oficina</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Desarrollo personal</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Diseño</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Marketing</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Estilo de vida</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Fotografía y vídeo</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Salud y fitness</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Música</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                                <a href="#" class="item-drop-cat d-flex justify-between align-center">
+                                    <span>Enseñanzas y disciplinas académicas</span>
+                                    <i class='bx bx-chevron-right fz-20'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-search-movil d-none-desktop d-block-movil">
+                    <button><i class='bx bx-search'></i></button>
+                </div>
+                <div class="container-input-searh  d-none-movil d-block-desktop">
+                    <div class="content-input-searh">
+                        <label for="searchMenu">
+                            <i class='bx bx-search'></i>
+                        </label>
+                        <input type="search" placeholder="Buscar cualquier cosa" id="searchMenu">
+                    </div>
+                </div>
+                <a href="#" class="d-none-movil d-block-desktop">Cursos</a>
+                <div class="container-comunidad-hover d-none-movil d-block-desktop">
+                    <button class="d-flex justify-center align-center" data-drop-target="sectionComunity">
+                        <span>Comunidad</span>
+                        <i class='bx bx-chevron-down rotate'></i>
+                    </button>
+                    <div class="content-comunidad-hover" id="sectionComunity">
+                        <a href="#">Eventos</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Live</a>
+                    </div>
+                </div>
+                <a href="#" class="d-none-movil d-block-desktop">Asesorías</a>
+                <div class="container-comunidad-hover d-none-movil d-block-desktop">
+                    <button class="d-flex justify-center align-center" data-drop-target="sectionWishList">
+                        <i class='bx bx-heart'></i>
+                    </button>
+                    <div class="content-comunidad-hover drop-xl" id="sectionWishList">
+                        <div class="container-list-wishes">
+                            <div class="content-list-wishes">
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="btn-list-wishes">
+                                        <button>Añadir al carrito</button>
+                                    </div>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="btn-list-wishes">
+                                        <button>Añadir al carrito</button>
+                                    </div>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="btn-list-wishes">
+                                        <button>Añadir al carrito</button>
+                                    </div>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="btn-list-wishes">
+                                        <button>Añadir al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-btn-wishes">
+                                <a href="#" target="_blank">Ir a la lista de deseos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-comunidad-hover">
+                    <button class="d-flex-center" data-drop-target="sectionCar">
+                        <div class="counter-car">
+                            <span>4</span>
+                        </div>
+                        <i class='bx bx-cart-alt'></i>
+                    </button>
+                    <div class="content-comunidad-hover drop-xl" id="sectionCar">
+                        <div class="container-list-wishes">
+                            <div class="content-list-wishes">
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="item-list-wishes">
+                                    <a href="#" target="_blank" class="data-list-wishes">
+                                        <div class="img-list-wishes">
+                                            <img src="https://img-c.udemycdn.com/course/100x100/5668758_50e7_2.jpg"
+                                                alt="Curso de .NET para aplicaciones empresariales">
+                                        </div>
+                                        <div class="info-list-wishes">
+                                            <h4>Curso de .NET para aplicaciones empresariales</h4>
+                                            <span>Job Isaias Pulache Carreño</span>
+                                            <div class="price-list-wishes">
+                                                <span class="offerPrice">S/. 50.00 </span>
+                                                <span class="realPrice">S/. 200.00</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="container-btn-wishes">
+                                <div class="total-price">
+                                    <span class="offerPrice">Total: S/. 200.00 </span>
+                                    <span class="realPrice">S/. 1000.00</span>
+                                </div>
+                                <a href="#" target="_blank">Ir al carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-comunidad-hover d-none-movil d-block-desktop">
+                    <button class="d-flex-center" data-drop-target="sectionNotify">
+                        <i class='bx bxs-bell'></i>
+                    </button>
+                    <div class="content-comunidad-hover  drop-xl" id="sectionNotify">
+                        <div class="container-notify d-flex flex-column ">
+                            <div class="title-notify">
+                                <span>Notificaciones</span>
+                            </div>
+                            <div class="list-notify d-flex flex-column">
+                                <a href="#" class="item-notify d-flex align-center">
+                                    <div class="img-notify">
+                                        <img src="https://img-c.udemycdn.com/user/100x100/1693564_c4e4.jpg"
+                                            alt="Notify name">
+                                    </div>
+                                    <div class="data-notify d-flex flex-column gap-3">
+                                        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
+                                            accusantium.</span>
+                                        <span>hace 3 horas</span>
+                                    </div>
+                                    <div class="state-notify d-flex ">
+                                        <div></div>
+                                    </div>
+                                </a>
+                                <a href="#" class="item-notify d-flex align-center">
+                                    <div class="img-notify">
+                                        <img src="https://img-c.udemycdn.com/user/100x100/18179976_a92d.jpg"
+                                            alt="Notify name">
+                                    </div>
+                                    <div class="data-notify d-flex flex-column gap-3">
+                                        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
+                                            accusantium.</span>
+                                        <span>hace 3 horas</span>
+                                    </div>
+                                    <div class="state-notify d-flex ">
+                                        <div></div>
+                                    </div>
+                                </a>
+                                <a href="#" class="item-notify d-flex align-center">
+                                    <div class="img-notify">
+                                        <img src="https://img-c.udemycdn.com/user/100x100/68383616_a513_3.jpg"
+                                            alt="Notify name">
+                                    </div>
+                                    <div class="data-notify d-flex flex-column gap-3">
+                                        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
+                                            accusantium.</span>
+                                        <span>hace 3 horas</span>
+                                    </div>
+                                    <div class="state-notify d-flex ">
+                                        <div></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="container-btn-notify d-flex align-center justify-between">
+                                <button>Marcar todo como leído</button>
+                                <a href="#">Ver todo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-comunidad-hover d-none-movil d-block-desktop">
+                    <button class="container-user-header c-pointer" data-drop-target="sectionUserHeader">
+                        <span>J</span>
+                        <span>C</span>
+                    </button>
+                    <div class="content-comunidad-hover drop-xl" id="sectionUserHeader">
+                        <div class="container-user-drop d-flex flex-column gap-3">
+                            <a href="#" class="data-user-drop d-flex justify-start align-center gap-5">
+                                <div>
+                                    <div class="container-user-header">
+                                        <span>J</span>
+                                        <span>C</span>
+                                    </div>
+                                </div>
+                                <div class="mail-user-drop d-flex flex-column gap-3">
+                                    <span>Job Isaias Pulache Carreño kjjuhyusghdfjkñlj</span>
+                                    <span>jobisaiaspulachecarreño@gmail.com khjgjhg</span>
+                                </div>
+                            </a>
+                            <div class="links-drop-user d-flex flex-column gap-3">
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Mi perfil </span>
+                                    <i class='bx bx-user'></i>
+                                </a>
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Mis cursos </span>
+                                    <i class='bx bx-grid-alt'></i>
+                                </a>
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Lista de deseos </span>
+                                    <i class='bx bx-heart'></i>
+                                </a>
+                            </div>
+                            <div class="links-drop-user d-flex flex-column gap-3">
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Configuración </span>
+                                    <i class='bx bx-cog'></i>
+                                </a>
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Métodos de pago </span>
+                                    <i class='bx bxl-mastercard'></i>
+                                </a>
+                            </div>
+                            <div class="links-drop-user d-flex flex-column gap-3">
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Ayuda y asistencia</span>
+                                    <i class='bx bx-support'></i>
+                                </a>
+                                <a href="#" class="d-flex justify-between">
+                                    <span>Cerrar sesión</span>
+                                    <i class='bx bx-log-out'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 col-lg-1 bg-primary bg-warning colGlobalStep ofon cus-scroll">
+                        <!--new barra-->
+                        <section class="globalSteps cus-scroll" data-mcs-theme="dark">
+                            <div class="Scriptcontent">
+                                <div class="tituloCur sticky-top p-2 mb-2 d-flex
+                                 justify-content-between
+                                 bg-warning">
+                                    <div class="" style="margin-right: 10px">
+                                        <button class="navOpenNav btn btn-warning text-dark p-2
+                                       fs-5">
+                                            <i class='bx bxs-chevron-right'></i>
+                                            <i class='bx bxs-chevron-left hidden'></i>
+                                        </button>
+                                    </div>
+                                    <div class="text-dark text-ocult">
+                                        <h5 class="fz-14 text-start">Full Stack Node.js React TS NestJS Next.js Creando
+                                            Proyectos
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!-- Stepper HTML -->
+
+                                <div class="pb-5">
+                                    <div class="ok">
+                                        <div class="step">
+                                            <div>
+                                                <div class="flag"><svg class="text-light"
+                                                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="w-6 h-6">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <h5 class="text-light">Introducción al Curso - Proyectos que
+                                                        Construiremos</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step step-active">
+                                            <div class="">
+                                                <div class="circle">1</div>
+                                            </div>
+                                            <div class="">
+                                                <div class="caption">
+                                                    <p>Proyecto 1 - DevTree - Express, TypeScript, MongoDB, React con
+                                                        Vite</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div class="sty">
+                                                <div class="circle">2</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Proyecto 2 - CashTrackr - Express, Node, TypeScript, PostgreSQL y
+                                                        Next.js</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">3</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Proyecto 3 - Point of Sale (POS) - NestJS, TypeScript, PostgreSQL
+                                                        y Next.js</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <div class="step">
+                                            <div>
+                                                <div class="flag"><svg class="text-light"
+                                                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                                        class="w-6 h-6">
+                                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                                            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <h5 class="text-light">Introducción a Node.js</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">4</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">5</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">6</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">7</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">8</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="ok">
+                                        <a href="#" class="step">
+                                            <div>
+                                                <div class="circle">9</div>
+                                            </div>
+                                            <div>
+                                                <div class="caption">
+                                                    <p>Detalle del tema 001, detallar hicohicohicohicohicohico.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- End Stepper HTML -->
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-sm-12 col-lg-8 pb-5  bg-module cus-scroll ">
+                        <!--video-->
+                        <div class="" style="width: auto">
+                            <div class="container-video">
+                                <lite-youtube videoid="K1r-oVYgjiE"></lite-youtube>
+                            </div>
+                        </div>
+                        <div class="">
+                            <!--subvideo1-->
+                            <div class="row">
+                                <div class="d-flex justify-content-between p-4">
+                                    <div class="d-flex flex-row gap-10 align-center">
+                                        <img class="img-avatar-course"
+                                            src="https://img-c.udemycdn.com/course/480x270/6030438_425f_5.jpg"
+                                            alt="image course" />
+                                        <div class="d-flex flex-column gap-10">
+                                            <h6 class="text-light text-bolt mb-1px">Full Stack Node.js React TS NestJS
+                                                Next.js Creando Proyectos</h6>
+                                            <div class="d-flex avatar-teacher">
+                                                <img src="https://img-c.udemycdn.com/user/200_H/4748648_5109_2.jpg"
+                                                    alt="image teacher" class="img-avatar-people m-0">
+                                                <span class="text-white ml-10 fz-14">Juan Pablo De la Torre
+                                                    Valdez</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  buper rbuper">
+                                        <a href="#"
+                                            class="btn d-flex justify-content-between align-items-center btn-per1"
+                                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                            data-bs-title="Detalle del tema 001">
+                                            <i class='bx bx-horizontal-left'></i>
+                                            <p class="modis"></p>
+                                        </a>
+                                        <a href="#" type="button" id="btnTooltip"
+                                            class="btn  d-flex justify-content-between align-items-center btn-per2"
+                                            data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                            data-bs-title="Proyecto 2 - CashTrackr - Express, Node, TypeScript, PostgreSQL y Next.js">
+                                            <i class='bx bx-horizontal-right'></i>
+                                            <p class="modis olg">Proyecto 2 - CashTrackr - Express, Node, TypeScript,
+                                                PostgreSQL y Next.js</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--subvideo2-->
+                            <div class="row bg-">
+                                <div class="content-info-taller p-2 d-flex
+                                 justify-content-between">
+                                    <div class="">
+                                        <h6 class="text-light ml-1">
+                                            Detalle del tema 0001
+                                        </h6>
+                                    </div>
+                                    <div class="d-flex">
+                                        <span class="text-light text-bolt text-center">1/15<i
+                                                class="bi bi-flag m-2"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--collapses-->
+                            <!--tabs-->
+                            <div class="row">
+                                <div class="tabs-contenedor-materiales">
+                                    <ul class="nav nav-tabs pt-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item tabofon" role="presentation">
+                                            <button class="nav-link text-warning" id="pills-home-tab"
+                                                data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+                                                role="tab" aria-controls="pills-home" aria-selected="true">
+                                                TEMARIO
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link text-warning active" id="pills-profile-tab"
+                                                data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
+                                                role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                RECURSOS
+                                            </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link text-warning" id="pills-contact-tab"
+                                                data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
+                                                role="tab" aria-controls="pills-contact" aria-selected="false">
+                                                PARA TÍ
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content pt-4 w-95" id="pills-tabContent">
+                                    <div class="tab-pane fade cus-scroll" id="pills-home" role="tabpanel"
+                                        aria-labelledby="pills-home-tab">
+                                        <!--menuogon-->
+                                        <section class="globalSteps  tab1ofon" data-mcs-theme="dark">
+                                            <div class="Scriptcontent">
+                                                <div class="tituloCur p-2 mb-2 d-flex
+                                            justify-content-between
+                                            bg-warning">
+                                                    <div class="text-dark text-ocult">
+                                                        <h5>Full Stack Node.js React TS NestJS Next.js Creando Proyectos
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                                <!-- Stepper HTML -->
+
+                                                <div class="">
+                                                    <div class="ok">
+                                                        <div class="step">
+                                                            <div>
+                                                                <div class="flag"><svg class="text-light"
+                                                                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                        viewBox="0 0 24 24" stroke-width="1.5"
+                                                                        stroke="currentColor" class="w-6 h-6">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round"
+                                                                            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <h5 class="text-light">tema 1 Lorem ipsum d</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step step-active">
+                                                            <div class="">
+                                                                <div class="circle">1</div>
+                                                            </div>
+                                                            <div class="">
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">2</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">3</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <div class="step">
+                                                            <div>
+                                                                <div class="flag"><svg class="text-light"
+                                                                        xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                        viewBox="0 0 24 24" stroke-width="1.5"
+                                                                        stroke="currentColor" class="w-6 h-6">
+                                                                        <path stroke-linecap="round"
+                                                                            stroke-linejoin="round"
+                                                                            d="M3 3v1.5M3 21v-6m0 0l2.77-.693a9 9 0 016.208.682l.108.054a9 9 0 006.086.71l3.114-.732a48.524 48.524 0 01-.005-10.499l-3.11.732a9 9 0 01-6.085-.711l-.108-.054a9 9 0 00-6.208-.682L3 4.5M3 15V4.5" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <h5 class="text-light">tema 2</h5>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">4</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">5</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">6</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">7</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">8</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ok">
+                                                        <a href="#" class="step">
+                                                            <div>
+                                                                <div class="circle">9</div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="caption">
+                                                                    <p>Detalle del tema 001, detallar
+                                                                        hicohicohicohicohicohico.</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Stepper HTML -->
+                                            </div>
+                                        </section>
+
+                                    </div>
+                                    <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                                        aria-labelledby="pills-profile-tab">
+                                        <div class="descriprecursos">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="text-light">Archivos de la clase</h5>
+                                                <button class="btn btn-outline-warning">
+                                                    <i class='bx bx-download'></i>
+                                                    <span class="downloadAll">Desargar
+                                                        todo</span></button>
+                                            </div>
+                                            <div class="d-flex flex-column mt-4">
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bx-file-blank c-yellow'></i>
+                                                        <span class="text-white">Recursos antes del curso</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar archivo">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bx-file-blank c-yellow'></i>
+                                                        <span class="text-white">home.zip</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar archivo">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bx-file-blank c-yellow'></i>
+                                                        <span class="text-white">Recursos antes del curso</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar archivo">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bx-folder-open c-yellow'></i>
+                                                        <span class="text-white">Conceptos</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar carpeta">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bxs-file-pdf c-yellow'></i>
+                                                        <span class="text-white">Recursos antes del curso</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar archivo">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bxs-file-archive c-yellow'></i>
+                                                        <span class="text-white">Recursos antes del curso</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar archivo">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class='bx bx-folder-open c-yellow'></i>
+                                                        <span class="text-white">Conceptos</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar carpeta">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                                <div class="file d-flex justify-content-between">
+                                                    <div class="d-flex align-items-center gap-10">
+                                                        <i class="fa fa-folder c-yellow" aria-hidden="true"></i>
+                                                        <span class="text-white">Conceptos</span>
+                                                    </div>
+                                                    <button class="btn c-yellow btnDownload" data-bs-toggle="tooltip"
+                                                        data-bs-placement="bottom" data-bs-title="Desargar carpeta">
+                                                        <i class='bx bx-download'></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                        aria-labelledby="pills-contact-tab">
+                                        <p class="text-white">contenido para ti</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!--otro cursos-->
+                                <div class="wdgt-cursos">
+                                    <div class="container">
+                                        <div class="ps-section__header">
+                                            <h5 class="text-light mb-4 mt-4">
+                                                Otros talleres que podrían interesarte
+                                            </h5>
+                                        </div>
+                                        <div class="contenedor-cursos">
+                                            <div class="row justify-content-center">
+                                                <div class="container-slider-comments w-100">
+                                                    <div class="splide talleres-slider"
+                                                        aria-label="Splide Basic HTML Example">
+                                                        <div class="splide__track">
+                                                            <ul class="splide__list">
+                                                                <li class="splide__slide" data-splide-interval="3000">
+                                                                    <article class="item-best-courses">
+                                                                        <a href="detalle.html" class="bg-sucess-light">
+                                                                            <div class="img-course">
+                                                                                <img src="/img/courses/course-5.png"
+                                                                                    alt="Course name">
+                                                                                <div class="category-course">
+                                                                                    <span>Digital Marketing</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="data-course-card">
+                                                                                <div
+                                                                                    class="qualification-price d-flex justify-between align-center">
+                                                                                    <div
+                                                                                        class="starts-container d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="starts d-flex justify-start align-center gap-3">
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                        </div>
+                                                                                        <span>4.5k</span>
+                                                                                    </div>
+                                                                                    <div class="price-course">
+                                                                                        <span>$50.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="title-course">
+                                                                                    <h6>It Statistics Data Science And
+                                                                                        Business Analysis</h6>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="feature-course  d-flex justify-between align-center gap-3 bg-white">
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-video"></i>
+                                                                                        <span class="fz-12">Lesson
+                                                                                            10</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-time-five"></i>
+                                                                                        <span class="fz-12">19h
+                                                                                            30m</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-user"></i>
+                                                                                        <span class="fz-12">Students
+                                                                                            20+</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="footer-course d-flex justify-between align-center ">
+                                                                                    <div
+                                                                                        class="teacher-course d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="avatar-teacher-course">
+                                                                                            <img src="/img/teacher/teacher1.png"
+                                                                                                alt="Teacher name"
+                                                                                                width="50">
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="fz-14 fw-500">Samantha
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </article>
+                                                                </li>
+                                                                <li class="splide__slide" data-splide-interval="3000">
+                                                                    <article class="item-best-courses">
+                                                                        <a href="detalle.html" class="bg-sucess-light">
+                                                                            <div class="img-course">
+                                                                                <img src="/img/courses/course-5.png"
+                                                                                    alt="Course name">
+                                                                                <div class="category-course">
+                                                                                    <span>Digital Marketing</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="data-course-card">
+                                                                                <div
+                                                                                    class="qualification-price d-flex justify-between align-center">
+                                                                                    <div
+                                                                                        class="starts-container d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="starts d-flex justify-start align-center gap-3">
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                        </div>
+                                                                                        <span>4.5k</span>
+                                                                                    </div>
+                                                                                    <div class="price-course">
+                                                                                        <span>$50.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="title-course">
+                                                                                    <h6>It Statistics Data Science And
+                                                                                        Business Analysis</h6>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="feature-course  d-flex justify-between align-center gap-3 bg-white">
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-video"></i>
+                                                                                        <span class="fz-12">Lesson
+                                                                                            10</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-time-five"></i>
+                                                                                        <span class="fz-12">19h
+                                                                                            30m</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-user"></i>
+                                                                                        <span class="fz-12">Students
+                                                                                            20+</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="footer-course d-flex justify-between align-center ">
+                                                                                    <div
+                                                                                        class="teacher-course d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="avatar-teacher-course">
+                                                                                            <img src="/img/teacher/teacher1.png"
+                                                                                                alt="Teacher name"
+                                                                                                width="50">
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="fz-14 fw-500">Samantha
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </article>
+                                                                </li>
+                                                                <li class="splide__slide" data-splide-interval="3000">
+                                                                    <article class="item-best-courses">
+                                                                        <a href="detalle.html" class="bg-sucess-light">
+                                                                            <div class="img-course">
+                                                                                <img src="/img/courses/course-5.png"
+                                                                                    alt="Course name">
+                                                                                <div class="category-course">
+                                                                                    <span>Digital Marketing</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="data-course-card">
+                                                                                <div
+                                                                                    class="qualification-price d-flex justify-between align-center">
+                                                                                    <div
+                                                                                        class="starts-container d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="starts d-flex justify-start align-center gap-3">
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                        </div>
+                                                                                        <span>4.5k</span>
+                                                                                    </div>
+                                                                                    <div class="price-course">
+                                                                                        <span>$50.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="title-course">
+                                                                                    <h6>It Statistics Data Science And
+                                                                                        Business Analysis</h6>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="feature-course  d-flex justify-between align-center gap-3 bg-white">
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-video"></i>
+                                                                                        <span class="fz-12">Lesson
+                                                                                            10</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-time-five"></i>
+                                                                                        <span class="fz-12">19h
+                                                                                            30m</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-user"></i>
+                                                                                        <span class="fz-12">Students
+                                                                                            20+</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="footer-course d-flex justify-between align-center ">
+                                                                                    <div
+                                                                                        class="teacher-course d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="avatar-teacher-course">
+                                                                                            <img src="/img/teacher/teacher1.png"
+                                                                                                alt="Teacher name"
+                                                                                                width="50">
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="fz-14 fw-500">Samantha
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </article>
+                                                                </li>
+                                                                <li class="splide__slide" data-splide-interval="3000">
+                                                                    <article class="item-best-courses">
+                                                                        <a href="detalle.html" class="bg-sucess-light">
+                                                                            <div class="img-course">
+                                                                                <img src="/img/courses/course-5.png"
+                                                                                    alt="Course name">
+                                                                                <div class="category-course">
+                                                                                    <span>Digital Marketing</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="data-course-card">
+                                                                                <div
+                                                                                    class="qualification-price d-flex justify-between align-center">
+                                                                                    <div
+                                                                                        class="starts-container d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="starts d-flex justify-start align-center gap-3">
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                        </div>
+                                                                                        <span>4.5k</span>
+                                                                                    </div>
+                                                                                    <div class="price-course">
+                                                                                        <span>$50.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="title-course">
+                                                                                    <h6>It Statistics Data Science And
+                                                                                        Business Analysis</h6>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="feature-course  d-flex justify-between align-center gap-3 bg-white">
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-video"></i>
+                                                                                        <span class="fz-12">Lesson
+                                                                                            10</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-time-five"></i>
+                                                                                        <span class="fz-12">19h
+                                                                                            30m</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-user"></i>
+                                                                                        <span class="fz-12">Students
+                                                                                            20+</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="footer-course d-flex justify-between align-center ">
+                                                                                    <div
+                                                                                        class="teacher-course d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="avatar-teacher-course">
+                                                                                            <img src="/img/teacher/teacher1.png"
+                                                                                                alt="Teacher name"
+                                                                                                width="50">
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="fz-14 fw-500">Samantha
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </article>
+                                                                </li>
+                                                                <li class="splide__slide" data-splide-interval="3000">
+                                                                    <article class="item-best-courses">
+                                                                        <a href="detalle.html" class="bg-sucess-light">
+                                                                            <div class="img-course">
+                                                                                <img src="/img/courses/course-5.png"
+                                                                                    alt="Course name">
+                                                                                <div class="category-course">
+                                                                                    <span>Digital Marketing</span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="data-course-card">
+                                                                                <div
+                                                                                    class="qualification-price d-flex justify-between align-center">
+                                                                                    <div
+                                                                                        class="starts-container d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="starts d-flex justify-start align-center gap-3">
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                            <i class="bx bxs-star"></i>
+                                                                                        </div>
+                                                                                        <span>4.5k</span>
+                                                                                    </div>
+                                                                                    <div class="price-course">
+                                                                                        <span>$50.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="title-course">
+                                                                                    <h6>It Statistics Data Science And
+                                                                                        Business Analysis</h6>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="feature-course  d-flex justify-between align-center gap-3 bg-white">
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-video"></i>
+                                                                                        <span class="fz-12">Lesson
+                                                                                            10</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-time-five"></i>
+                                                                                        <span class="fz-12">19h
+                                                                                            30m</span>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="d-flex justify-center align-center gap-3">
+                                                                                        <i class="bx bxs-user"></i>
+                                                                                        <span class="fz-12">Students
+                                                                                            20+</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="footer-course d-flex justify-between align-center ">
+                                                                                    <div
+                                                                                        class="teacher-course d-flex justify-start align-center gap-5">
+                                                                                        <div
+                                                                                            class="avatar-teacher-course">
+                                                                                            <img src="/img/teacher/teacher1.png"
+                                                                                                alt="Teacher name"
+                                                                                                width="50">
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="fz-14 fw-500">Samantha
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </article>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-grid p-2text-center">
+                                                <button type="button" class="btn btn-outline-warning mt-2
+                                          mx-auto" data-bs-toggle="button" autocomplete="off">
+                                                    Ver todos »
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colsm-12 col bg-module cus-scroll pb-5" style="padding-top:
+                        15px">
+                        <div class="cont-comentarios text-light">
+                            <form>
+                                <textarea class="comentariosText rounded-5 p-2"
+                                    placeholder="Escribe tu comentario"></textarea>
+                                <button type="submit" class="btn btn-outline-warning mt-2">
+                                    Publicar
+                                </button>
+                            </form>
+                            <div class="listaComentarios">
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card shadow rounded-5 mb-2 mt-4">
+                                    <div class="card-body text-dark">
+                                        <div class="row">
+                                            <div class="col-2 col-sm-2">
+                                                <img src="https://assets.website-files.com/61f9082050036c5b7a4899f5/62fe994b2d41261ab46e73e4_Profile-4-min.webp"
+                                                    class="card-img-top rounded" alt="..." />
+                                            </div>
+                                            <div class="col-10 col-sm-10">
+                                                <div class="contenido_Comentario text-light">
+                                                    <div class="nombre-user-coment">
+                                                        <b>Manuel Zeta Guerrero</b>
+                                                    </div>
+                                                    <div class="fecha-coment">
+                                                        <p>Hace una semana</p>
+                                                    </div>
+                                                    <p class="card-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit. Mauris at sagittis sapien. Cras accumsan vel
+                                                        tellus vel consequat. Proin vel magna urna. Maecenas
+                                                        sed tell
+                                                    </p>
+                                                    <a href="#" class="text-warning">
+                                                        <i class='bx bx-share'></i>
+                                                        Responder
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="w-100 d-flex flex-column justify-center align-center footer">
+            <div class="w-80 content-footer">
+                <article class="d-flex flex-column justify-start gap-20">
+                    <img src="/img/logo/logovertical-white.png" alt="Logo CloseUpLearn" width="200">
+                    <p class="p-general">
+                        Interdum velit laoreet id donec ultrices
+                        tincidunt arcu. Tincidunt tortor aliquam nulla
+                        facilisi cras fermentum odio eu.
+                    </p>
+                    <div class="w-100 d-flex justify-start align-center gap-5 redes-footer">
+                        <div>
+                            <a href="#" class="d-flex justify-center align-center">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="d-flex justify-center align-center">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="d-flex justify-center align-center">
+                                <i class='bx bxl-youtube'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#" class="d-flex justify-center align-center">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="d-flex flex-column justify-start align-center">
+                    <h5>Our services</h5>
+                    <ul class="d-flex flex-column gap-10">
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Web development</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>UI/UX Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Management</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Digital Marketing</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Blog News</span>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="d-flex flex-column justify-start align-center">
+                    <h5>Quick links</h5>
+                    <ul class="d-flex flex-column gap-10">
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Templates</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Blog and Article</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Integrations</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Webinars</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex justify-start align-center gap-10">
+                                <i class='bx bx-chevron-right'></i>
+                                <span>Privacy & Policy</span>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="d-flex flex-column justify-start">
+                    <h5>Gallery</h5>
+                    <div class="grid-gellery-footer">
+                        <img src="/img/footer/img-1.png" alt="img1" width="100">
+                        <img src="/img/footer/img-2.png" alt="img2" width="100">
+                        <img src="/img/footer/img-3.png" alt="img3" width="100">
+                        <img src="/img/footer/img-4.png" alt="img4" width="100">
+                        <img src="/img/footer/img-5.png" alt="img5" width="100">
+                        <img src="/img/footer/img-6.png" alt="img6" width="100">
+                    </div>
+                </article>
+            </div>
+            <div class="w-100 d-flex justify-center align-center copyright">
+                <div class="d-flex justify-center align-center gap-5">
+                    <p class="p-general">Copyright &copy; 2024</p>
+                    <a href="#">CloseUpLearn</a>
+                    <p class="p-general">|| All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- CDN Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.2/dist/umd/popper.min.js"></script>
+    <script src="/js/bootstrap/js/bootstrap.min.js"></script>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+    <script src="/js/splide/splide.min.js"></script>
+    <script src="/js/app.js"></script>
+
+
+
+</body>
+
+</html>
